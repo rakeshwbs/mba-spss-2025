@@ -1,11 +1,9 @@
 # Mean
 
 For a dataset with values
-$$
-\
-\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
-\
-$$
+
+<img src="./../../images/image-20250711195430204.png" width='50%'>
+
 That is,
 $$
 \text{Mean} = \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n}
