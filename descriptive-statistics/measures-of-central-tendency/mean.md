@@ -15,22 +15,22 @@ For a dataset with values
 
 - Download the CSV file using the link below:
 
-   [remote_work_mean.csv](./mct-datasets/remote_work_mean.csv) 
+   [student_assessment_dataset.csv](./mct-datasets/student_assessment_dataset.csv.csv) 
 
 - You should get this table.
 
-  | Respondent_ID | Work_Life_Balance_1 | Work_Life_Balance_2 | Work_Life_Balance_3 | Work_Life_Balance_4 |
-  | ------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-  | 1             | 4                   | 3                   | 4                   | 3                   |
-  | 2             | 3                   | 4                   | 4                   | 3                   |
-  | 3             | 5                   | 5                   | 5                   | 4                   |
-  | 4             | 4                   | 4                   | 3                   | 4                   |
-  | 5             | 2                   | 3                   | 3                   | 2                   |
-  | 6             | 4                   | 3                   | 3                   | 3                   |
-  | 7             | 3                   | 4                   | 4                   | 3                   |
-  | 8             | 5                   | 5                   | 5                   | 5                   |
-  | 9             | 4                   | 4                   | 5                   | 4                   |
-  | 10            | 3                   | 2                   | 2                   | 2                   |
+  | student_id | firstname | surname | marks_assessment1 | marks_assessment2 | no_of_lateness |
+  | ---------- | --------- | ------- | ----------------- | ----------------- | -------------- |
+  | 101        | Aarya     | Rao     | 78                | 82                | 2              |
+  | 102        | Ben       | Smith   | 65                | 67                | 5              |
+  | 103        | Chloe     | Tan     | 89                | 91                | 1              |
+  | 104        | Dinesh    | Naidoo  | 72                | 70                | 3              |
+  | 105        | Ella      | Brown   | 90                | 88                | 0              |
+  | 106        | Farah     | Patel   | 55                | 58                | 6              |
+  | 107        | George    | Clark   | 60                | 62                | 4              |
+  | 108        | Hema      | Singh   | 83                | 85                | 1              |
+  | 109        | Isaac     | Ali     | 77                | 80                | 2              |
+  | 110        | Jia       | Lim     | 68                | 72                | 3              |
 
   #### **Task 1**- To find the mean of each row
 
@@ -38,7 +38,7 @@ For a dataset with values
 
   - Go to **Transform** > **Compute Variable**
 
-  - In the *Target Variable* box, type: `Mean_WLB`
+  - In the *Target Variable* box, type: `average_score`
 
   - Click **Function group** > Select **Statistical**
 
@@ -46,8 +46,8 @@ For a dataset with values
 
   - In the parentheses, enter the variables:
 
-  ```SPSs
-  Mean_WLB = MEAN(Work_Life_Balance_1, Work_Life_Balance_2, Work_Life_Balance_3, Work_Life_Balance_4)
+  ```SPSS
+  average_score = MEAN(marks_assessment1, marks_assessment2)
   ```
 
   - Click OK
@@ -55,7 +55,7 @@ For a dataset with values
   ##### Syntax Method in SPSS:
 
   ```SPSS
-  COMPUTE Mean_WLB = MEAN(Work_Life_Balance_1, Work_Life_Balance_2, Work_Life_Balance_3, Work_Life_Balance_4).
+  COMPUTE average_score = MEAN(marks_assessment1, marks_assessment2).
   EXECUTE.
   ```
 
@@ -63,24 +63,35 @@ For a dataset with values
 
   #### **Task 2**- To find the mean of each column
 
-  ##### Graphical Method in SPSS:
+  ##### Graphical Steps to Get Mean of Each Variable
 
-1. Go to **Analyze** > **Descriptive Statistics** > **Descriptives**
-2. Move the following variables to the right panel:
-   - `Work_Life_Balance_1`
-   - `Work_Life_Balance_2`
-   - `Work_Life_Balance_3`
-   - `Work_Life_Balance_4`
-3. Click **Options** → Make sure **Mean** is ticked (you can also select Std. Deviation, Min, Max)
-4. Click **Continue**, then **OK**
+**Open your dataset** in SPSS.
+
+Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
+
+In the **Descriptives dialog box**:
+
+- Select these variables:
+  - `marks_assessment1`
+  - `marks_assessment2`
+  - `no_of_lateness`
+- Move them to the **Variable(s)** box using the arrow button.
+
+Click **Options…**
+
+- Tick the checkbox for **Mean**
+- (Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
+
+Click **Continue**, then **OK**
 
 ##### 	Syntax Method in SPSS
 
 ```spss
-DESCRIPTIVES VARIABLES=Work_Life_Balance_1 Work_Life_Balance_2 Work_Life_Balance_3 Work_Life_Balance_4
+DESCRIPTIVES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness 
   /STATISTICS=MEAN.
 ```
 
  You will get the following table showing the **mean of each variable**.
 
-<img src="./../../images/image-20250711194840897.png" width='40%'>
+`<img src="./../../images/image-20250711202815498.png" width=40% align='center'>
+
