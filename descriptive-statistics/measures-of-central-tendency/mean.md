@@ -17,7 +17,7 @@ For a dataset with values
 
 - Download the CSV file using the link below:
 
-   [student_assessment_dataset.csv](./mct-datasets/student_assessment_dataset.csv.csv) 
+   [student_assessment_dataset.csv](./mct-datasets/student_assessment_dataset.csv) 
 
 - You should get this table.
 
