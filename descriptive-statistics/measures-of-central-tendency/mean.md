@@ -4,11 +4,6 @@ For a dataset with values
 
 <img src="./../../images/image-20250711195430204.png" width='30%'>
 
-That is,
-$$
-\text{Mean} = \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n}
-$$
-
 #### **Purpose of the Mean in Descriptive Statistics**
 
 - In **descriptive statistics**, the **mean** serves as a **measure of central tendency**. 
@@ -88,4 +83,4 @@ DESCRIPTIVES VARIABLES=Work_Life_Balance_1 Work_Life_Balance_2 Work_Life_Balance
 
  You will get the following table showing the **mean of each variable**.
 
-![image-20250711194840897](./../../images/image-20250711194840897.png)
+<img src="./../../images/image-20250711194840897.png" width='40%'>
