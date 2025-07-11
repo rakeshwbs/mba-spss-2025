@@ -2,7 +2,7 @@
 
 For a dataset with values
 
-<img src="./../../images/image-20250711195430204.png" width='50%'>
+<img src="./../../images/image-20250711195430204.png" width='30%'>
 
 That is,
 $$
