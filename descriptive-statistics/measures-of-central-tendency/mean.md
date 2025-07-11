@@ -36,72 +36,61 @@ For a dataset with values
 
   #### 
 
-  ***
+***
 
-  #### 🔹 GOAL: Compute Mean (Row-wise)
+#### 🔹 GOAL: Compute Mean (Row-wise)
 
-  ***
+***
 
-  ##### Graphical Method in SPSS:
+##### Graphical Method in SPSS:
 
-  - Go to **Transform** > **Compute Variable**
+- Go to **Transform** > **Compute Variable**
 
-  - In the *Target Variable* box, type: `average_score`
+- In the *Target Variable* box, type: `average_score`
 
-  - Click **Function group** > Select **Statistical**
+- Click **Function group** > Select **Statistical**
 
-  - In the *Functions and Special Variables* list, double-click `MEAN`
+- In the *Functions and Special Variables* list, double-click `MEAN`
 
-  - In the parentheses, enter the variables:
+- In the parentheses, enter the variables:
 
-  ```SPSS
-  average_score = MEAN(marks_assessment1, marks_assessment2)
-  ```
+```SPSS
+average_score = MEAN(marks_assessment1, marks_assessment2)
+```
 
-  - Click OK
+- Click OK
 
-  ##### Syntax Method in SPSS:
+##### Syntax Method in SPSS:
 
-  ```SPSS
-  COMPUTE average_score = MEAN(marks_assessment1, marks_assessment2).
-  EXECUTE.
-  ```
+```SPSS
+COMPUTE average_score = MEAN(marks_assessment1, marks_assessment2).
+EXECUTE.
+```
 
-  ***
+***
 
-  
 
-  ***
 
-  #### 🔹GOAL: Compute Mean (Column-wise)
+***
 
-  ***
+#### 🔹GOAL: Compute Mean (Column-wise)
+
+***
 
 ##### Graphical Steps to Get Mean of Each Variable
 
-​		**Open your dataset** in SPSS.
-
-​		Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
-
-​		In the **Descriptives dialog box**:
-
-​			Select these variables:
-
-​					marks_assessment1
-
-​					marks_assessment2`
-
-​					`no_of_lateness`
-
-​	        Move them to the **Variable(s)** box using the arrow button.
-
-​		Click **Options…**
-
-​		Tick the checkbox for **Mean**
-
-​		(Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
-
-​		Click **Continue**, then **OK**
+- **Open your dataset** in SPSS.
+- Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
+- In the **Descriptives dialog box**:
+- Select these variables:
+  - marks_assessment1
+  - `marks_assessment2`
+  - `no_of_lateness`
+- Move them to the **Variable(s)** box using the arrow button.
+  - Click **Options…**
+  - Tick the checkbox for **Mean**
+  - (Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
+- Click **Continue**, then **OK**
 
 ##### Syntax Method in SPSS
 
