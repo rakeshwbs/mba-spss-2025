@@ -38,11 +38,11 @@ For a dataset with values
 
 ***
 
-#### 🔹 GOAL: Compute Mean (Row-wise)
+### 🔹 GOAL: Compute Mean (Row-wise)
 
 ***
 
-##### Graphical Method in SPSS:
+#### Graphical Method in SPSS:
 
 - Go to **Transform** > **Compute Variable**
 
@@ -60,7 +60,7 @@ average_score = MEAN(marks_assessment1, marks_assessment2)
 
 - Click OK
 
-##### Syntax Method in SPSS:
+#### Syntax Method in SPSS:
 
 ```SPSS
 COMPUTE average_score = MEAN(marks_assessment1, marks_assessment2).
@@ -73,11 +73,11 @@ EXECUTE.
 
 ***
 
-#### 🔹GOAL: Compute Mean (Column-wise)
+### 🔹GOAL: Compute Mean (Column-wise)
 
 ***
 
-##### Graphical Steps to Get Mean of Each Variable
+#### Graphical Steps to Get Mean of Each Variable
 
 - **Open your dataset** in SPSS.
 - Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
@@ -92,7 +92,7 @@ EXECUTE.
   - (Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
 - Click **Continue**, then **OK**
 
-##### Syntax Method in SPSS
+#### Syntax Method in SPSS
 
 ```spss
 DESCRIPTIVES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness 
@@ -101,5 +101,5 @@ DESCRIPTIVES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness
 
  You will get the following table showing the **mean of each variable**.
 
-`<img src="./../../images/image-20250711202815498.png" width=50% align='center'>
+<img src="./../../images/image-20250711202815498.png" width=50% align='center'>
 

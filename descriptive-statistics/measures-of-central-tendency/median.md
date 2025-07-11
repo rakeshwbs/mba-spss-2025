@@ -10,11 +10,11 @@ It is **not affected by extreme values** (unlike the mean), so it's useful when 
 
 ------
 
-## 🔹 GOAL: Compute Median (Column-wise)
+### 🔹 GOAL: Compute Median (Column-wise)
 
 ------
 
-### 🖱️ **Graphical Steps in SPSS to Find the Median**
+#### 🖱️ **Graphical Steps in SPSS to Find the Median**
 
 1. **Open your dataset** in SPSS.
 2. Go to **Analyze** → **Descriptive Statistics** → **Frequencies**
@@ -29,3 +29,13 @@ It is **not affected by extreme values** (unlike the mean), so it's useful when 
    - Tick the box for **Median**
    - (Optional: tick Mean, Std. Deviation, Min, Max)
 6. Click **Continue**, then **OK**
+
+#### SPSS Syntax to Calculate the Median
+
+```spss
+FREQUENCIES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness
+  /STATISTICS=MEDIAN
+  /FORMAT=NOTABLE.
+```
+
+<img src="./../../images/image-20250711204915127.png" width=60% align='center'>
