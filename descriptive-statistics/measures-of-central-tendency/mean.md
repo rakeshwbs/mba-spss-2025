@@ -16,3 +16,12 @@ $$
 - In **descriptive statistics**, the **mean** serves as a **measure of central tendency**. 
 - It summarizes a set of values by identifying the **"average" or most typical value** in the dataset.
 
+
+
+## Practical
+
+1. Download the CSV file using the link below:
+
+   
+
+2. 
