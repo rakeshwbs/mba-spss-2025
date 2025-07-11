@@ -15,7 +15,7 @@ For a dataset with values
 
 - Download the CSV file using the link below:
 
-   [remote_work_mean.csv](./mct-datasets\remote_work_mean.csv) 
+   [remote_work_mean.csv](./mct-datasets/remote_work_mean.csv) 
 
 - You should get this table.
 
