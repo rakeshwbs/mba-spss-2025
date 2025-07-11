@@ -1,3 +1,5 @@
+
+
 # Mean
 
 For a dataset with values
@@ -32,7 +34,13 @@ For a dataset with values
   | 109        | Isaac     | Ali     | 77                | 80                | 2              |
   | 110        | Jia       | Lim     | 68                | 72                | 3              |
 
-  #### **Task 1**- To find the mean of each row
+  #### 
+
+  ***
+
+  #### 🔹 GOAL: Compute Mean (Row-wise)
+
+  ***
 
   ##### Graphical Method in SPSS:
 
@@ -61,30 +69,41 @@ For a dataset with values
 
   ***
 
-  #### **Task 2**- To find the mean of each column
+  
 
-  ##### Graphical Steps to Get Mean of Each Variable
+  ***
 
-**Open your dataset** in SPSS.
+  #### 🔹GOAL: Compute Mean (Column-wise)
 
-Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
+  ***
 
-In the **Descriptives dialog box**:
+##### Graphical Steps to Get Mean of Each Variable
 
-- Select these variables:
-  - `marks_assessment1`
-  - `marks_assessment2`
-  - `no_of_lateness`
-- Move them to the **Variable(s)** box using the arrow button.
+​		**Open your dataset** in SPSS.
 
-Click **Options…**
+​		Go to **Analyze** → **Descriptive Statistics** → **Descriptives**.
 
-- Tick the checkbox for **Mean**
-- (Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
+​		In the **Descriptives dialog box**:
 
-Click **Continue**, then **OK**
+​			Select these variables:
 
-##### 	Syntax Method in SPSS
+​					marks_assessment1
+
+​					marks_assessment2`
+
+​					`no_of_lateness`
+
+​	        Move them to the **Variable(s)** box using the arrow button.
+
+​		Click **Options…**
+
+​		Tick the checkbox for **Mean**
+
+​		(Optionally also select **Standard deviation**, **Minimum**, **Maximum**)
+
+​		Click **Continue**, then **OK**
+
+##### Syntax Method in SPSS
 
 ```spss
 DESCRIPTIVES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness 
@@ -93,5 +112,5 @@ DESCRIPTIVES VARIABLES=marks_assessment1 marks_assessment2 no_of_lateness
 
  You will get the following table showing the **mean of each variable**.
 
-`<img src="./../../images/image-20250711202815498.png" width=40% align='center'>
+`<img src="./../../images/image-20250711202815498.png" width=50% align='center'>
 
