@@ -1,6 +1,7 @@
 # One-Sample-T-Test
 
-A **one-sample t-test** determines whether the **mean of a single sample** is significantly different from a **known or hypothesized population mean**.
+> A **one-sample t-test** determines whether the **mean of a single sample** is significantly different from a **known or hypothesized population mean**.
+>
 
 ### **Purpose of the Test:**
 

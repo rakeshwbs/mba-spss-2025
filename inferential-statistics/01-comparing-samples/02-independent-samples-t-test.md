@@ -1,6 +1,7 @@
 # Independent Samples t Test
 
-An **independent samples t-test** compares the **means of two unrelated (independent) groups** to determine if there's a **statistically significant difference** between them.
+> An **independent samples t-test** compares the **means of two unrelated (independent) groups** to determine if there's a **statistically significant difference** between them.
+>
 
 ### **Purpose of the Test:**
 
