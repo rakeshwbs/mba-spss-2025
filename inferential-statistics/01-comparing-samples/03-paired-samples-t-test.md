@@ -87,9 +87,9 @@ Note: Negative mean difference indicates **Post > Pre**, since difference = Pre 
 A **paired samples t-test** was conducted to evaluate the effectiveness of a training program on employee knowledge scores at XYZ Ltd.
 
 The results show a **significant increase** in post-training scores (M = 73.15, SD = 5.47) compared to pre-training scores (M = 68.11, SD = 4.89).
-$$
-t(29) = -10.475,\ p < .001
-$$
+
+<img src="./../../images/image-20250714103657888.png" width= 25% align="center">
+
 Because the **p-value is less than 0.05**, we **reject the null hypothesis** and conclude that there is a **statistically significant improvement** in employee scores following the training.
 
 The 95% confidence interval for the mean difference [-6.02, -4.06] suggests the average improvement was between **4 to 6 points**.
