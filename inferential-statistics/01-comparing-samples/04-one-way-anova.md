@@ -60,7 +60,7 @@ ONEWAY Performance_Score BY Department_Code
 
 ### Results
 
-![image-20250714122050528](.\..\..\images\image-20250714122050528.png)
+![image-20250714122050528](./../../images/image-20250714122050528.png)
 
 ## **SPSS Output Summary**
 
